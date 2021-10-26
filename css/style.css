@@ -49,10 +49,26 @@ main{
     padding: 20px 100px;
     border-radius: 5px;
     margin-top: 4px;
-    min-height: 500px;
 }
 
-/* ---------------BOTTONI--------------- */
+ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+li{
+    margin-bottom: 30px;
+    color: #444851;
+    font-size: 20px;;
+}
+
+.listTask h2{
+    display: inline-block;
+    color: #444851;
+    margin-bottom: 20px;;
+}
+
+/* ---------------BOTTONI E TAG--------------- */
 .addTask {
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
@@ -99,5 +115,94 @@ main{
 .addSection:active {
 	position:relative;
 	top:1px;
+}
+
+.editorial{
+    background-color:#33bdef;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.goals{
+    background-color:#9c72e4;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.recruit{
+    background-color:#64c0a9;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.mobile{
+    background-color:#f29e33;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.web{
+    background-color:#d863a1;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.sales{
+    background-color:#b0c926;
+    border-radius: 32px;
+    padding: 8px 16px;
+    color: white;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+
+/* ---------------SIMBOL--------------- */
+.triangle-down{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #444851;
+    display: inline-block;
+  }
+
+  .roundgreen{
+    border: 1px #64c0a9 solid;
+    border-radius: 50%;
+    color: #64c0a9;
+    display: inline-block;
+    height:25px;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.roundred{
+    border: 1px #ea453b solid;
+    border-radius: 50%;
+    color: #ea453b;
+    display: inline-block;
+    height:25px;
+    width: 25px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
